@@ -1,7 +1,8 @@
-"""empty message
+"""
+empty message
 
 Revision ID: 8fc2f2585db8
-Revises: 
+Revises:
 Create Date: 2020-08-29 11:00:17.346624
 
 """
