@@ -2,10 +2,10 @@
 from flask import Flask
 # from models.models import setup_db
 
-'''
+"""
 App Config
     Creates the flask app
-'''
+"""
 
 
 app = Flask(__name__)
