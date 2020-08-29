@@ -6,6 +6,9 @@ __pycache__/
 # vscode
 .vscode
 
+# Local secrets
+*--local.*
+
 # Flask stuff:
 instance/
 .webassets-cache
