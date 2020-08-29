@@ -22,23 +22,23 @@ Make sure you have [Python](https://www.python.org/downloads/) installed.
 1.  **Fork the Repository**<br>
 
 2.  **Clone the Repository**<br>
-        Replace `<your-username>` with your github username.
-        ```bash
-        git clone -b master https://github.com/<your-username>/fsnd-capstone.git
-        ```
+    Replace `<your-username>` with your github username.
+    ```bash
+    git clone -b master https://github.com/<your-username>/fsnd-capstone.git
+    ```
 
 3.  **Set up a virtual environment**:<br>
-        ```bash
-        virtualenv env
-        source env/Scripts/activate # for windows
-        source env/bin/activate # for MacOs
-        ```
-        If you don't have `virtualenv` installed, run **Step 3** first. Virtualenv has been included in the requirements.txt file. Then proceed to run **Step 2** again.
+    ```bash
+    virtualenv env
+    source env/Scripts/activate # for windows
+    source env/bin/activate # for MacOs
+    ```
+    > If you don't have `virtualenv` installed, run **Step 3** first. Virtualenv has been included in the requirements.txt file. Then proceed to run **Step 2** again.
 
 4.  **Install Dependencies**:<br>
-        ```bash
-        pip install -r requirements.txt
-        ```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 5.  **Export Environment Variables**<br>
         Refer to the `setup.sh` file and export the environment variables for the project.
@@ -47,17 +47,17 @@ Make sure you have [Python](https://www.python.org/downloads/) installed.
         Create a local database and export the database URI as an environment variable with the key `DATABASE_PATH`.
 
 7.  **Run Database Migrations**:<br>
-        ```bash
-        python manage.py db init
-        python manage.py db migrate
-        python manage.py db upgrade
-        ```
+    ```bash
+    python manage.py db init
+    python manage.py db migrate
+    python manage.py db upgrade
+    ```
 
 8.  **Run the Flask Application locally**:<br>
-        ```bash
-        export FLASK_APP=app
-        export FLASK_ENV=development
-        flask run
-        ```
+    ```bash
+    export FLASK_APP=app
+    export FLASK_ENV=development
+    flask run
+    ```
 
 9.  See the [CONTRIBUTING](CONTRIBUTING.md) to see how to make contributions.
