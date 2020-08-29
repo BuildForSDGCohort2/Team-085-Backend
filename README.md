@@ -55,7 +55,7 @@ Make sure you have [Python](https://www.python.org/downloads/) installed.
 
 8.  **Run the Flask Application locally**:<br>
         ```bash
-        export FLASK_APP=myapp
+        export FLASK_APP=app
         export FLASK_ENV=development
         flask run
         ```

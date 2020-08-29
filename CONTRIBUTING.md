@@ -13,6 +13,10 @@ This document will be regularly updated as the need arises, so it is important t
     ```
     to add the new dependencies to the requirements.txt file.
 
+- Any environment variables or builds specific to your local computer, and are not required for the production build should be commented out in the `[setup.sh](setup.sh)` file. A local file with the `--local` suffix should be created to contain this local specific secrets, so they can be automatically ignored.
+    **Example**:<br>
+    `setup--local.sh`
+
 ## Issues
 
 The development progress will be tracked using issues. Issues will be created whenever a new feature needs to be added, a bug needs to be fixed, or any change needs to be made to the code, dependencies or documentation. Before opening a new issue, always check to confirm there are no open issues addressing it already.
