@@ -18,4 +18,5 @@ Models
 from models.models import Users, Jobs
 
 if __name__ == '__main__':
-    app.run(port=8080, debug=True)
+    # app.run(port=8080, debug=True) => Development only
+    app.run(port=8080)  # Production
