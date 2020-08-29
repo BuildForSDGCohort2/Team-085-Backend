@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# vscode
+.vscode
+
+# Local secrets
+*--local.*
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Environments
+env
