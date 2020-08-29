@@ -48,7 +48,6 @@ Make sure you have [Python](https://www.python.org/downloads/) installed.
 
 7.  **Run Database Migrations**:<br>
     ```bash
-    python manage.py db init
     python manage.py db migrate
     python manage.py db upgrade
     ```
